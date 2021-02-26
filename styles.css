@@ -59,9 +59,13 @@ html body {
     color: #FFFFFF !important;
 }
 
-.hover-primary:hover {
-    color: var(--color-primary) !important;
-    text-decoration: none;
+a.hover-primary:focus,
+a.hover-primary:hover {
+    color: var(--color-primary)!important;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+    text-underline-offset: .5rem;
 }
 
 .img_smile_white {
